@@ -4,6 +4,7 @@
 
 WOP Pathfinding visualiser. 
 Currently has A* search algorithm, if I implemented it right, it looks right...
+
 Uses the octile heuristic method, apparently more accurate in obtaining diagonal paths so.
 
 Small minor quality of life details added:
