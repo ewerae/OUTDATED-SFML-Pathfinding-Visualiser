@@ -23,8 +23,6 @@ A path forming through the 0s would be considered a valid. Besides that the algo
 
 Annoyingly I have no idea on how to speed up calculation time either in SFML, and I'm not entirely certain if my virtual machine is the issue.
 
-
-
 I'll add more search algorithms.
 
 Note: I've left in my debugging functions to check if everything's working the way I think they are, hence some text when running to check the vector sizes, and nodes etc.
