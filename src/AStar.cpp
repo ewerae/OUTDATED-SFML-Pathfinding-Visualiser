@@ -41,7 +41,7 @@ double AStar::OctileHeuristic(int x1, int y1, int x2, int y2) {
     int dy = abs(y1 - y2);
     return dx + dy + (std::sqrt(2)  - 2) * std::min(dx, dy);
 }
-// // returns true if f value of a is bigger than f value of b
+
 
 void AStar::AStarInit(){
     if (!isInit) { // Check if already initialized
@@ -55,7 +55,7 @@ int AStar::GetOpenSetTop() {
     if (!openSet.empty()) {
         return openSet.top()->x;
     } else {
-        return -1; // Return nullptr or handle the case when the openSet is empty
+        return -1; 
     }
 }
 
