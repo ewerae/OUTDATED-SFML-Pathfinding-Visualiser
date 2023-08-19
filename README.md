@@ -17,7 +17,7 @@ Thinking about it now, this heuristic method actually can pierce through diagona
 
 {{1, 0}, {0, 1}}. 
 
-A path forming through the 0s can be considered a valid path. Besides that the algorithm should work. 
+A path forming through the 0s would be considered a valid. Besides that the algorithm should work as intended. 
 
 Annoyingly I have no idea on how to speed up calculation time either in SFML, and I'm not entirely certain if my virtual machine is the issue.
 
