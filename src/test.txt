@@ -1,6 +1,0 @@
-so i think  you
-obtain the nearby squares when you assign the start. this is done in theproces events
-
-then in the algorithm you never set it to anything, you only do the algorithm.
-
-make update functions where you update the current cell being examined. and update the path and update the finals scores.
