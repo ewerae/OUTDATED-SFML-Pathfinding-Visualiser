@@ -3,9 +3,9 @@
 ![](https://github.com/ewerae/Pathfinding-Visualiser/blob/main/pathfinder.gif)
 
 WOP Pathfinding visualiser. 
-Currently has my own version of the A* search algorithm, if I implemented it right. Although, other visualisers I have seen look prettier in their solving time. I will blame this VM and Linux however. It's too slow. That being said, I have no idea on how to speed up calculation time either in SFML, and I'm not entirely certain if my virtual machine is the issue. Alas...
+Currently has my own version of the A* search algorithm, if I implemented it right. Although, other visualisers I have seen look prettier in their solving time. 
 
-I'm using a VM to use Linux as some pre-requisites for Windows 11 SFML was driving me crazy and for Linux it was a simple click of the download button.
+I'm using a VM to use Linux as some pre-requisites for Windows 11 SFML was driving me crazy and for Linux it was a simple click of the download button. The VM is too slow for me to incorporate more extensive graphics, like animations, and the processing isn't so good.
 
 The algorithm uses the octile heuristic method, apparently more accurate in obtaining diagonal paths so.
 
