@@ -3,9 +3,9 @@
 ![](https://github.com/ewerae/Pathfinding-Visualiser/blob/main/pathfinder.gif)
 
 WOP Pathfinding visualiser. 
-Currently has my own version of the A* search algorithm, if I implemented it right, it looks right... Although, other visualisers I have seen look prettier in their solve method. I think ultimately the paths are the most efficient but they've somehow colour coded theres better... 
+Currently has my own version of the A* search algorithm, if I implemented it right. Although, other visualisers I have seen look prettier in their solving time. I will blame this VM and Linux however. It's too slow. That being said, I have no idea on how to speed up calculation time either in SFML, and I'm not entirely certain if my virtual machine is the issue. Alas...
 
-I'm using a VM to use Linux as some pre-requisites for Windows 11 SFML was driving me crazy and for Linux it was a simple click of the download button, there's only so much I can do with a very slow VM...
+I'm using a VM to use Linux as some pre-requisites for Windows 11 SFML was driving me crazy and for Linux it was a simple click of the download button.
 
 The algorithm uses the octile heuristic method, apparently more accurate in obtaining diagonal paths so.
 
@@ -19,10 +19,9 @@ Thinking about it now, this heuristic method actually can pierce through diagona
 
 {{1, 0}, {0, 1}}. 
 
-A path forming through the 0s would be considered a valid. Besides that the algorithm should work as intended. 
+A path forming through the 0s would be considered a valid. Besides that the algorithm should work as intended. Actually, I haven't told it what to do if there is no path... moving on...
 
-Annoyingly I have no idea on how to speed up calculation time either in SFML, and I'm not entirely certain if my virtual machine is the issue.
 
-I'll add more search algorithms.
+I'll probably add more search algorithms before I even begin fixing the bugs :D
 
 Note: I've left in my debugging functions to check if everything's working the way I think they are, hence some text when running to check the vector sizes, and nodes etc.
