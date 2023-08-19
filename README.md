@@ -11,8 +11,9 @@ Small minor quality of life details added:
 - Run and Reset
 - Can override the state the tile has just by clicking with another tile state, no constant resetting or deleting certain tiles.
 
-Like I said, work in progress. There are bugs, not entirely in the search algorithm but more about being able to click buttons whilst running etc.
-Although thinking about it now, this heuristic method actually can pierce through diagonal obstacle walls. For example, if a grid of {1, 0}, {0, 1}. A path forming through the 0s can be considered a valid path.
+Like I said, work in progress. There are bugs, not entirely in the search algorithm but more in being able to click buttons whilst running etc, however, resetting it will completely fix it all, so at least there's a contingency.
+
+Thinking about it now, this heuristic method actually can pierce through diagonal obstacle walls. For example, if a grid of {1, 0}, {0, 1}. A path forming through the 0s can be considered a valid path.
 Besides that the algorithm should work. 
 
 Annoyingly I have no idea on how to speed up calculation time either in SFML. I'm using a virtual machine to use linux as some pre-requisites to windows SFML was driving me crazy and for Linux it was a simple click of the download button.
