@@ -11,7 +11,7 @@ Small minor quality of life details added:
 - Run and Reset
 - Can override the state the tile has just by clicking with another tile state, no constant resetting or deleting certain tiles.
 
-Like I said, work in progress. There are bugs, not entirely in the search algorithm but more in being able to click buttons whilst running etc, however, resetting it will completely fix it all, so at least there's a contingency.
+Like I said, work in progress. There are bugs, not entirely in the search algorithm but more in being able to click buttons whilst running etc, however, clicking reset will completely fix it all, so at least there's a contingency.
 
 Thinking about it now, this heuristic method actually can pierce through diagonal obstacle walls. For example, a 2x2 grid like so:
 
