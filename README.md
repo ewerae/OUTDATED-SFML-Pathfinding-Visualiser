@@ -19,6 +19,8 @@ Thinking about it now, this heuristic method actually can pierce through diagona
 
 A path forming through the 0s can be considered a valid path. Besides that the algorithm should work. 
 
-Annoyingly I have no idea on how to speed up calculation time either in SFML. I'm using a virtual machine to use linux as some pre-requisites to windows SFML was driving me crazy and for Linux it was a simple click of the download button.
+Annoyingly I have no idea on how to speed up calculation time either in SFML, and I'm not entirely certain if my virtual machine is the issue.
+
+I'm using a VM to use Linux as some pre-requisites for Windows 11 SFML was driving me crazy and for Linux it was a simple click of the download button.
 
 I'll add more search algorithms.
