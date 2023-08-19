@@ -19,7 +19,7 @@ Thinking about it now, this heuristic method actually can pierce through diagona
 
 {{1, 0}, {0, 1}}. 
 
-A path forming through the 0s would be considered a valid. Besides that the algorithm should work as intended. Actually, I haven't told it what to do if there is no path... moving on...
+A path forming through the 0s would be considered a valid. Besides that the algorithm should work as intended. Actually, I haven't told it what to do if no path can be formed.
 
 
 I'll probably add more search algorithms before I even begin fixing the bugs :D
