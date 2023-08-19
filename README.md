@@ -13,7 +13,7 @@ Small minor quality of life details added:
 
 Like I said, work in progress. There are bugs, not entirely in the search algorithm but more in being able to click buttons whilst running etc, however, resetting it will completely fix it all, so at least there's a contingency.
 
-Thinking about it now, this heuristic method actually can pierce through diagonal obstacle walls. For example, if a grid of 
+Thinking about it now, this heuristic method actually can pierce through diagonal obstacle walls. For example, for a grid of 
 
 {{1, 0}, {0, 1}}. 
 
