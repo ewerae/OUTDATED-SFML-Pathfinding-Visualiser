@@ -24,3 +24,5 @@ Annoyingly I have no idea on how to speed up calculation time either in SFML, an
 I'm using a VM to use Linux as some pre-requisites for Windows 11 SFML was driving me crazy and for Linux it was a simple click of the download button.
 
 I'll add more search algorithms.
+
+Note: I've left in my debugging functions to check if everything's working the way I think they are, hence some text when running to check the vector sizes, and nodes etc.
