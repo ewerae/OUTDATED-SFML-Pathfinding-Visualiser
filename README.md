@@ -3,9 +3,11 @@
 ![](https://github.com/ewerae/Pathfinding-Visualiser/blob/main/pathfinder.gif)
 
 WOP Pathfinding visualiser. 
-Currently has A* search algorithm, if I implemented it right, it looks right...
+Currently has my own version of the A* search algorithm, if I implemented it right, it looks right... Although, other visualisers I have seen look prettier in their solve method. I think ultimately the paths are the most efficient but they've somehow colour coded theres better... 
 
-Uses the octile heuristic method, apparently more accurate in obtaining diagonal paths so.
+I'm using a VM to use Linux as some pre-requisites for Windows 11 SFML was driving me crazy and for Linux it was a simple click of the download button, there's only so much I can do with a very slow VM...
+
+The algorithm uses the octile heuristic method, apparently more accurate in obtaining diagonal paths so.
 
 Small minor quality of life details added:
 - Run and Reset
@@ -21,7 +23,7 @@ A path forming through the 0s would be considered a valid. Besides that the algo
 
 Annoyingly I have no idea on how to speed up calculation time either in SFML, and I'm not entirely certain if my virtual machine is the issue.
 
-I'm using a VM to use Linux as some pre-requisites for Windows 11 SFML was driving me crazy and for Linux it was a simple click of the download button.
+
 
 I'll add more search algorithms.
 
