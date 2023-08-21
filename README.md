@@ -3,7 +3,7 @@
 ![](https://github.com/ewerae/Pathfinding-Visualiser/blob/main/pathfinder.gif)
 
 WOP Pathfinding visualiser. 
-Currently has my own version of the A* search algorithm. Although, other visualisers I have seen look prettier in their solving time. The algorithm has proven itself to work however, is slow. I may need to consider an alternative method.
+Currently has my own version of the A* search algorithm. Although, other visualisers I have seen look prettier in their solving time. The algorithm has proven itself to work however, is slow when large amounts of obstacles are present. I may need to consider an alternative method.
 
 
 The algorithm uses the octile heuristic method, apparently more accurate in obtaining diagonal paths so.
