@@ -3,9 +3,8 @@
 ![](https://github.com/ewerae/Pathfinding-Visualiser/blob/main/pathfinder.gif)
 
 WOP Pathfinding visualiser. 
-Currently has my own version of the A* search algorithm, if I implemented it right. Although, other visualisers I have seen look prettier in their solving time. 
+Currently has my own version of the A* search algorithm. Although, other visualisers I have seen look prettier in their solving time. The algorithm has proven itself to work however, is slow. I may need to consider an alternative method.
 
-I'm using a VM to use Linux as some pre-requisites for Windows 11 SFML was driving me crazy and for Linux it was a simple click of the download button. The VM is too slow for me to incorporate more extensive graphics, like animations, and the processing isn't so good.
 
 The algorithm uses the octile heuristic method, apparently more accurate in obtaining diagonal paths so.
 
@@ -19,7 +18,7 @@ Thinking about it now, this heuristic method actually can pierce through diagona
 
 {{1, 0}, {0, 1}}. 
 
-A path forming through the 0s would be considered a valid. Besides that the algorithm should work as intended. Actually, I haven't told it what to do if no path can be formed.
+A path forming through the 0s would be considered a valid. Besides that the algorithm should work as intended. In addition, I haven't told it what to do if no path can be formed.
 
 
 I'll probably add more search algorithms before I even begin fixing the bugs :D
