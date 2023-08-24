@@ -1,6 +1,8 @@
-# Pathfinding-Visualiser
+# SFML-Pathfinding-Visualiser
 
 ![](https://github.com/ewerae/Pathfinding-Visualiser/blob/main/pathfinder.gif)
+
+~Update (24/08/2023) - I feel I can improve on this, so might redo this.
 
 WOP Pathfinding visualiser. 
 Currently has my own version of the A* search algorithm. Although, other visualisers I have seen look prettier in their solving time.
